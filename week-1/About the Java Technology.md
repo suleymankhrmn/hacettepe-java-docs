@@ -5,8 +5,26 @@
 <p align="center">
     <span style="display:inline-block; background:#ecf0f1; color:#2c3e50; padding:12px 24px; border-radius:8px; font-size:1.25em; font-weight:500;">
         Java is more than just a programming language—it's a complete platform for building and running applications.
-    </span>
-</p>
+        </span>
+    </p>
+
+---
+
+## ☕ Java Programming Language – Timeline
+
+|  **Year**  | **Event / Milestone**         | **Description**                                                                                   |
+| :--------: | :---------------------------- | :----------------------------------------------------------------------------------------------- |
+|  **1991**  | **Green Project** started     | James Gosling and his team began developing a platform-independent language (Sun Microsystems).   |
+|  **1992**  | First prototype – *Oak*       | A prototype named Oak was developed; it was designed for embedded devices.                        |
+|  **1995**  | Released as **Java**          | Launched with the slogan “Write Once, Run Anywhere”; Applet support appeared in early browsers.   |
+|  **1996**  | **Java 1.0** released         | The first official version of Java; platform independence gained popularity.                      |
+|  **1998**  | **Java 2 (J2SE, J2EE, J2ME)** | Desktop, server, and mobile editions were separated.                                              |
+|  **2004**  | **Java 5.0 (Tiger)**          | Modern features like generics, metadata (annotations), and enhanced for loop were introduced.     |
+|  **2006**  | Java became open source       | Sun Microsystems made Java open source under the GPL license.                                     |
+|  **2010**  | **Oracle acquired Sun**       | Java rights transferred to Oracle.                                                                |
+|  **2014**  | **Java 8**                    | Functional programming features like lambda expressions and Stream API were added.                |
+| **2017**  | **Java 9–11**                 | Modular system (Jigsaw) introduced, release cycle accelerated (new version every 6 months).       |
+| **2021+**  | **Modern Java (17, 21, …)**   | LTS releases (Java 17, 21) strengthened security, performance, and the open source community.     |
 
 ---
 
@@ -28,6 +46,68 @@
 </div>
 
 ---
+
+🔹 Simple
+
+Java is derived from C/C++, but its complex features (such as pointers, operator overloading, and multiple inheritance) have been removed. This makes it easier to learn and use.
+
+---
+
+🔹 Object-Oriented
+
+Everything in Java is modeled as an object. Code is organized around classes, objects, and methods.
+
+---
+
+🔹 Distributed
+
+Java supports applications that run over a network. With RMI (Remote Method Invocation) and socket support, interaction with remote systems is possible.
+
+---
+
+🔹 Multithreaded
+
+Java allows multiple processes (threads) to run simultaneously, making it easy to develop high-performance and responsive applications.
+
+---
+
+🔹 Dynamic
+
+Java programs can load or modify classes at runtime. The Reflection API and dynamic class loading are examples of this capability.
+
+---
+
+🔹 Architecture-Neutral
+
+Java bytecode is not tied to any processor architecture. The JVM (Java Virtual Machine) can execute this bytecode on any platform.
+
+---
+
+🔹 Portable
+
+Java programs are platform-independent. The same .class file can run unchanged on different operating systems.
+
+---
+
+🔹 High-Performance
+
+Thanks to the JIT (Just-In-Time) Compiler, Java code is converted to native machine code at runtime, boosting performance.
+
+---
+
+🔹 Robust
+
+Java provides reliable applications through exception handling, strong typing, and memory management (garbage collection).
+
+---
+
+🔹 Secure
+
+Java runs on a virtual machine, restricting direct access to system resources. Security is enforced by the security manager and bytecode verifier.
+
+---
+
+
 
 ## ⚙️ How It Works
 
