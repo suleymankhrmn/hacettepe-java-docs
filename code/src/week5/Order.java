@@ -2,10 +2,14 @@ package week5;
 
 import java.util.UUID;
 
+import static week5.OrderType.*;
+
 public class Order {
-    private final String ONLINE = "ONLINE";
+    /*private final String ONLINE = "ONLINE";
     private final String SHOPE = "SHOPE";
-    private final String WAREHOUSE = "WAREHOUSE";
+    private final String WAREHOUSE = "WAREHOUSE";*/
+
+
     private final double price_online = 5400.13;
     private final double price_shope = 5600.13;
     private final double price_warehouse = 5200.13;
@@ -23,11 +27,11 @@ public class Order {
     }
 
     private void calculateAmount(String type, int count) {
-        if (type.equals(SHOPE)){
+        if (SHOPE.name().equals(type)){
             this.amount = count * price_shope;
-        } else if (type.equals(WAREHOUSE)) {
+        } else if (WAREHOUSE.name().equals(type)) {
             this.amount = count * price_warehouse;
-        } else if (type.equals(ONLINE)) {
+        } else if (ONLINE.name().equals(type)) {
             this.amount = count * price_online;
         }
     }
