@@ -18,6 +18,7 @@ public class Order {
     private double amount;
     private String orderNo;
     private int count;
+    public boolean paymentStatus = false;
 
     public Order(String type , int count) {
         this.type = type;
